@@ -135,7 +135,7 @@ GOTO END
 @ECHO.
 @ECHO     -u Logon user to host. Default value: root
 @ECHO. 
-@ECHO     -d Destination directory. Default value: /root/sap_download
+@ECHO     -d Remote destination directory. Default value: /root/sap_download. To be safe, you need to make this directory before you use this tool.
 @ECHO. 
 @ECHO     -k Key file for scp connection. Default location is '~\.ssh\id_rsa'.
 @ECHO.
